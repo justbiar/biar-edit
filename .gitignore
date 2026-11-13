@@ -1,0 +1,24 @@
+# never commit: secrets live in the macOS Keychain, these are local state and media
+*.md
+.env*
+*.pem
+*.key
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.claude/
+projects/
+media/
+channels/
+automation/
+history/
+brand/
+bin/
+*.app
+*.mp4
+*.mov
+*.m4a
+*.mp3
+*.wav
+*.exr
